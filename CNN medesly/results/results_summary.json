@@ -1,0 +1,38 @@
+{
+  "dataset": {
+    "train_samples": 500000,
+    "test_samples": 100000,
+    "max_url_length": 200
+  },
+  "model": {
+    "embedding_dim": 64,
+    "conv_filters": [
+      128,
+      128,
+      64
+    ],
+    "kernel_sizes": [
+      3,
+      5,
+      7
+    ],
+    "dense_units": [
+      128,
+      64
+    ],
+    "dropout_rate": 0.5
+  },
+  "training": {
+    "batch_size": 256,
+    "epochs": 20,
+    "learning_rate": 0.001,
+    "training_time_minutes": 6.846168688933054
+  },
+  "metrics": {
+    "accuracy": 0.97088,
+    "precision": 0.9688918983509918,
+    "recall": 0.973,
+    "f1_score": 0.9709416037999441,
+    "roc_auc": 0.9964744188000001
+  }
+}
